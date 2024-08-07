@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Media</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="assignments.html">About Me</a></li>
+                <li><a href="assignmentform.html">Application Form</a></li>
+                <li><a href="table.html">AltSchool Courses</a></li>
+                <li><a href="media.html">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>About Me - Media</h1>
+        <p>This page showcases various media elements in HTML to provide a more dynamic and engaging introduction.</p>
+
+        <h2>Image</h2>
+        <img src="IMG_8312.jpeg" alt="Tomilola Onikosi" style="width: 300px; height: auto;">
+
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="your-audio-file.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h2>Video</h2>
+        <video controls width="320" height="240">
+            <source src="your-video-file.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+
+        <h2>Picture Element</h2>
+        <picture>
+            <source media="(max-width: 600px)" srcset="small.jpg">
+            <source media="(min-width: 601px) and (max-width: 1200px)" srcset="medium.jpg">
+            <source media="(min-width: 1201px)" srcset="large.jpg">
+            <img src="default.jpg" alt="Responsive Image">
+        </picture>
+
+        <h2>Embed a YouTube Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+    </main>
+
+    <footer>
+        <a href="#top">Back to Top</a>
+    </footer>
+</body>
+</html>
