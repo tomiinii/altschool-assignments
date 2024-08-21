@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Media</title>
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="assignments.html">About Me</a></li>
-                <li><a href="assignmentform.html">Application Form</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="form.html">Application Form</a></li>
                 <li><a href="table.html">AltSchool Courses</a></li>
                 <li><a href="media.html">Media</a></li>
             </ul>
@@ -22,14 +23,14 @@
         <p>This page showcases various media elements in HTML to provide a more dynamic and engaging introduction.</p>
 
         <h2>Image</h2>
-        <img src="IMG_8312.jpeg" alt="Tomilola Onikosi" style="width: 300px; height: auto;">
+        <img src="IMG_8312.jpeg" alt="Tomilola Onikosi" class="responsive-img">
 
         <h2>Picture Element</h2>
         <picture>
             <source media="(max-width: 600px)" srcset="small.jpg">
             <source media="(min-width: 601px) and (max-width: 1200px)" srcset="medium.jpg">
             <source media="(min-width: 1201px)" srcset="large.jpg">
-            <img src="default.jpg" alt="Responsive Image">
+            <img src="default.jpg" alt="Responsive Image" class="responsive-img">
         </picture>
     </main>
 

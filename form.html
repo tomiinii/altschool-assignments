@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Application Form</title>
+    <link rel="stylesheet" href="form.css">
     <script>
         function validateForm(event) {
             event.preventDefault();
-            
+
             var password = document.getElementById("password").value;
             var confirmPassword = document.getElementById("confirm-password").value;
-            
+
             if (password !== confirmPassword) {
                 alert("Passwords do not match. Please try again.");
                 return false;
             }
-            
+
             alert("Form submitted successfully!");
             document.getElementById("application-form").reset();
             return true;
         }
     </script>
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="assignments.html">About Me</a></li>
-                <li><a href="assignmentform.html">Application Form</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="form.html">Application Form</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="table.html">Altschool Courses</a></li>
+
                 <li><a href="#">Already an AltSchooler? Sign In!</a></li>
             </ul>
         </nav>
@@ -88,4 +94,5 @@
         <a href="#top">Back to Top</a>
     </footer>
 </body>
+
 </html>
