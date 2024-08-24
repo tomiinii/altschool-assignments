@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Media</title>
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="media.css"
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -20,18 +28,18 @@
 
     <main>
         <h1>About Me - Media</h1>
-        <p>This page showcases various media elements in HTML to provide a more dynamic and engaging introduction.</p>
 
-        <h2>Image</h2>
+        <h2>Accidental women in tech</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tRdrAdQbyPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <h2>My Favorite Song</h2>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/52TZItSmEl1Cb3Ai55Bwdi?utm_source=generator" width="300" height="380" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+        <h2>Me</h2>
         <img src="IMG_8312.jpeg" alt="Tomilola Onikosi" class="responsive-img">
+        <h2>Also me</h2>
+        <img src="IMG_9180.PNG" alt="Tomilola Onikosi" class="responsive-img">
 
-        <h2>Picture Element</h2>
-        <picture>
-            <source media="(max-width: 600px)" srcset="small.jpg">
-            <source media="(min-width: 601px) and (max-width: 1200px)" srcset="medium.jpg">
-            <source media="(min-width: 1201px)" srcset="large.jpg">
-            <img src="default.jpg" alt="Responsive Image" class="responsive-img">
-        </picture>
     </main>
 
     <footer>
